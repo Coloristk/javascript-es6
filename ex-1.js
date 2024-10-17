@@ -12,5 +12,5 @@ let additionalProperties = {
 };
 
 // Start coding here
-
-console.log(newStudentProfile);
+let newStudentProfile={...studentProfile,...additionalProperties}
+console.log (newStudentProfile);
